@@ -25,8 +25,8 @@ the project is found on the e-learning website of FH-JOANNEUM
 
 ## internal links
 
-- [exercise1](exercise1.md)
-- [exercise2](exercise2.md)
+- [exercise1](exercise1.md) getting to learn Markdown syntax
+- [exercise2](exercise2.md) getting to learn git and GitHub
 - [exercise3](exercise3.md)
 - [exercise4](exercise4.md)
 - [exercise5](exercise5.md)
