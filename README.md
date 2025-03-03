@@ -31,3 +31,9 @@ the project is found on the e-learning website of FH-JOANNEUM
 - [exercise4](exercise4.md)
 - [exercise5](exercise5.md)
 - [exercise6](exercise6.md)
+
+## author
+
+GitHub profile: [https://github.com/aliaAlamer](https://github.com/aliaAlamer)
+
+FH-JOANNEUM: [https://www.fh-joanneum.at/](https://www.fh-joanneum.at/)

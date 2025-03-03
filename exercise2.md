@@ -26,8 +26,11 @@ This command should be used once. with every commit the name and email are store
 
 ![git log](resources\images\gitLog.png)
 
-![alt text](resources\images\gitLog2.png)
+![git log2](resources\images\gitLog2.png)
 
 - _git diff_: shows the difference between files. it shows what changed
+
+![git diff](resources\images\gitDiff.png)
+
 - _git pull_: downloads the latest chnages from a remote repository like GitHub
 - _git push_: uploads the changes you did to a remote repository
