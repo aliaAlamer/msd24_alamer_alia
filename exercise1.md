@@ -5,7 +5,7 @@
 Switches are central components in local area networks (LANs). They operate at Layer 2 of the OSI model and are responsible for efficiently forwarding data packets between devices within the same network.
 A switch is a networking device that forwards data packets between devices in a local network. Unlike a hub, a switch sends data only to the specific recipient, which increases network efficiency.
 
-![switch](resources/images/switches.png)
+![switch](resources/images/ex1_1.png)
 
 ### Key Features of a Switch
 
@@ -41,7 +41,7 @@ Broadcasts and Unicasts: Broadcasts (to all devices) are sent to all ports, whil
   2. enhances security by isolating sensitive data.
   3. simplifices network managment
 
-![VLANs](resources/images/vlans.png)
+![VLANs](resources/images/ex1_2.png)
 
 ###### additional resources
 
