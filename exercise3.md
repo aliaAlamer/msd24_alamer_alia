@@ -40,4 +40,21 @@ the main class has a Main method where Calculator methods are called and the res
 At the beginnig of this exercise I executed the already existing code in Main.java (System.out.println("Hello World!")) and i guess this triggered the build process and created the target folder.
 
 - **project structure**
+
 ![project structure](resources/images/ex3_1.png)
+
+### modifying pom.xml
+
+- added the maven-compiler-plugin dependency
+- then added the build section with plugin configuration
+
+- the block that was added is to configure the maven-compiler-plugin to compile the java code
+  - groupid: identifies the group that maintains the plugin
+  - artifactid: specifies the plugin name
+  - version: defines the plugin version
+  - configuration: configures how the plugin behaves during the build
+  - release: specifies the java version to compile against
+- the goal is to ensure the project is built using the correct java version
+- next step was to run **mvn compile** in the console to build the project
+
+![mvn compile](resources/images/ex3_2.png)
