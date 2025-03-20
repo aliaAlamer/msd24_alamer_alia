@@ -58,3 +58,18 @@ At the beginnig of this exercise I executed the already existing code in Main.ja
 - next step was to run **mvn compile** in the console to build the project
 
 ![mvn compile](resources/images/ex3_2.png)
+
+### modifying pom.xml: added another plugin
+
+- added the exec-maven-plugin: allows you to execute java applications directly from maven without packiging them into a JAR file.
+  - how it works:
+    1. compilation: Maven compiles your code
+    2. execution: the plugin runs the specified mainClass with its main method
+    3. classpath: all dependencies and resources are automatically included
+- after adding the plugin the following command should be executed:
+
+```plaintext
+mvn exec:java  
+```
+
+![mvn exec:java](resources/images/ex3_3.png)
