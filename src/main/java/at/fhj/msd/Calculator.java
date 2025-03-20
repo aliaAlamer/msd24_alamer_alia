@@ -15,7 +15,7 @@ public class Calculator {
 
      public double divide(double number1, double number2){
         if (number2 == 0){
-            throw new ArithmeticException("division by 0 isn't allowd");
+            throw new ArithmeticException("division by 0 isn't allowed");
         }
         return number1 / number2;
      }
