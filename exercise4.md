@@ -43,3 +43,29 @@ this file documents describes the test cases that were done for the Calculator. 
 ### Testcoverage
 
 ![testcoverage](resources/images/ex4_1.png)
+
+### TDD - test-driven development
+
+- it's a coding approach where you write tests first and then the code to make them pass. it follows a 3-step cycle:
+  1. Red: write a failing test. A test for a not existing code. this ensures the test actually checks what you want
+  2. Green: write minimal code to pass the test
+  3. Refactor: clean up the code while keeping the same functionality (optimize the code)
+
+### the second task step-by-step
+
+- create a not complete factorial method
+
+```java
+public int factorial(int n){
+      return 0;
+     }
+```
+
+- write tests
+
+- 3 tests
+  - factorial(5) -> Fails (expected 120, got 0)
+  - factorial(0) -> Fails (expected 1, got 0)
+  - factorial(-3) -> Fails (expected 0, got 0) ==> the test excepts 0 for negative inpits and my method always returns 0 for all inputs that is why this test passes but for the wrong reason
+
+![failedTests](resources/images/ex4_2.png)

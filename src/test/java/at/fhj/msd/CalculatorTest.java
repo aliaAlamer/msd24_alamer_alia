@@ -93,4 +93,22 @@ public class CalculatorTest{
         assertThrows(ArithmeticException.class, () -> {calc.divide(4, 0);
     }, "division by zero not allowed");
     }
+
+    @Test
+    void testFactorial5(){
+        int result12 = calc.factorial(5);
+        assertEquals(120, result12, "the answer of 5! should be 120");
+    }
+
+    @Test
+    void testFactorial0(){
+        int result13 = calc.factorial(0);
+        assertEquals(1, result13, "the answer of 0! should be 1");
+    }
+
+    @Test
+    void testFactorialNegativ(){
+        int result14 = calc.factorial(-3);
+        assertEquals(0, result14, "the result of -3! should be 0");
+    }
 }
