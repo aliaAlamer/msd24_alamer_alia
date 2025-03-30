@@ -69,3 +69,20 @@ public int factorial(int n){
   - factorial(-3) -> Fails (expected 0, got 0) ==> the test excepts 0 for negative inpits and my method always returns 0 for all inputs that is why this test passes but for the wrong reason
 
 ![failedTests](resources/images/ex4_2.png)
+![failedTets1](resources/images/ex4_3.png)
+
+- corrected the factorial method
+
+```java
+ public int factorial(int n){
+      if(n < 0){
+         return 0;
+      }
+      if(n == 0){
+         return 1;
+      }
+      return n * factorial(n-1);
+     }
+```
+
+- after correcting the method all tests passed

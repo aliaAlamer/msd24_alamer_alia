@@ -28,7 +28,7 @@ the project is found on the e-learning website of FH-JOANNEUM
 - [exercise1](exercise1.md) getting to learn Markdown syntax
 - [exercise2](exercise2.md) getting to learn git and GitHub
 - [exercise3](exercise3.md) getting to learn maven
-- [exercise4](exercise4.md)
+- [exercise4](exercise4.md) getting to learn how to test source code
 - [exercise5](exercise5.md)
 - [exercise6](exercise6.md)
 
