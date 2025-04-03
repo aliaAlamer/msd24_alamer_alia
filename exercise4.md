@@ -70,7 +70,6 @@ public int factorial(int n){
 
 ![failedTests](resources/images/ex4_2.png)
 
-
 - corrected the factorial method
 
 ```java
