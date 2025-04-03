@@ -38,7 +38,7 @@ this file documents describes the test cases that were done for the Calculator. 
 | exceptionTest | test division by 0 | 4, 0 | throw ArithmeticException |
 
 - I tested the exception because i wanted to know how it works. i didn't know how to do it so i looked it up on stackoverflow:
-  - [testing exception](https://stackoverflow.com/questions/40268446/junit-5-how-to-assert-an-exception-is-thrown)
+  - [testing exception](https://stackoverflow.com/questions/156503/how-do-you-assert-that-a-certain-exception-is-thrown-in-junit-tests)
 
 ### Testcoverage
 
@@ -66,10 +66,10 @@ public int factorial(int n){
 - 3 tests
   - factorial(5) -> Fails (expected 120, got 0)
   - factorial(0) -> Fails (expected 1, got 0)
-  - factorial(-3) -> Fails (expected 0, got 0) ==> the test excepts 0 for negative inpits and my method always returns 0 for all inputs that is why this test passes but for the wrong reason
+  - factorial(-3) -> Fails (expected 0, got 0) ==> the test excepts 0 for negative inputs and my method always returns 0 for all inputs that is why this test passes but for the wrong reason
 
 ![failedTests](resources/images/ex4_2.png)
-![failedTets1](resources/images/ex4_3.png)
+
 
 - corrected the factorial method
 

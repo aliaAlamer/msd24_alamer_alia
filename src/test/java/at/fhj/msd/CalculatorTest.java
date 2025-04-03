@@ -89,10 +89,12 @@ public class CalculatorTest{
     }
 
     @Test
-    void exceptionTest(){
-        assertThrows(ArithmeticException.class, () -> {calc.divide(4, 0);
-    }, "division by zero not allowed");
-    }
+void exceptionTest() {
+    ArithmeticException exception = assertThrows(ArithmeticException.class, () -> {
+        calc.divide(4, 0);
+    });
+    assertEquals("division by 0 isn't allowed", exception.getMessage());
+}
 
     @Test
     void testFactorial5(){
