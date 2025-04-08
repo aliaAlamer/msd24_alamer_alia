@@ -1,7 +1,11 @@
 package at.fhj.msd;
 
-public class Main 
-{
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class Main {
+
+    private static final Logger logger = LogManager.getLogger(Main.class);
     public static void main( String[] args ){
 
         Calculator calculate = new Calculator();
@@ -21,6 +25,9 @@ public class Main
         System.out.println(calculate.divide(2, 4));
 
         System.out.println("Alia Alamer");
+
+        logger.info("this is an info message (Level INFO)");
+        logger.error("this is an error message (Level ERROR)");
     }
     
 }
