@@ -33,7 +33,7 @@ the project is found on the e-learning website of FH-JOANNEUM
 - [exercise2](exercise2.md) getting to learn git and GitHub
 - [exercise3](exercise3.md) getting to learn maven
 - [exercise4](exercise4.md) getting to learn how to test source code
-- [exercise5](exercise5.md)
+- [exercise5](exercise5.md) getting to learn about branches
 - [exercise6](exercise6.md)
 
 ## author
