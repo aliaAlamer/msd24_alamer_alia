@@ -23,6 +23,10 @@ the project is found on the e-learning website of FH-JOANNEUM
 - choose 2 number that should be used in the arithmetic operation
 - choose the arthimetic operatort that should be used (+, -, /, *)
 
+## Konfigurationsvorlage
+
+- Logging: Kopiere `log4j2.xml.template` nach `log4j2.xml` und passe Pfade bei Bedarf an.
+
 ## internal links
 
 - [exercise1](exercise1.md) getting to learn Markdown syntax
