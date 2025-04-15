@@ -7,10 +7,25 @@
   <version>1.0-SNAPSHOT</version>
   <name>msd24_alamer_alia</name>
   <url>http://maven.apache.org</url>
+
+  <developers>
+    <developer>
+      <id>aliaAlamer</id>
+      <name>Alia Alamer</name>
+      <email>alia.alamer@edu.fh-joanneum.at</email>
+      <url>https://github.com/aliaAlamer</url>
+      <organization>FH JOANNEUM GmbH</organization>
+      <roles>
+      <role>Student</role>
+      </roles>
+    </developer>
+  </developers>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
      <log4j.version>2.22.1</log4j.version>
   </properties>
+
   <dependencies>
   <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -59,7 +74,63 @@
           <mainClass>at.fhj.msd.Main</mainClass> 
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.12</version>
+        <executions>
+          <execution>
+            <id>prepare-agent</id>
+            <goals>
+              <goal>prepare-agent</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>report</id>
+            <phase>test</phase>
+            <goals>
+              <goal>report</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
+
+   <!-- Neu: Reporting-Plugins für Maven Site -->
+  <reporting>
+    <plugins>
+      <!-- Javadoc-Integration -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.7.0</version>
+        <configuration>
+          <additionalJOption>-Xdoclint:none</additionalJOption>
+        </configuration>
+      </plugin>
+
+      <!-- JaCoCo-Berichte in der Site -->
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.12</version>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>report</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+
+      <!-- Projektinfos (optional) -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>3.5.0</version>
+      </plugin>
+    </plugins>
+  </reporting>
 </project>
 
