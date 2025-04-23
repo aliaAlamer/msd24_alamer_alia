@@ -34,7 +34,7 @@ the project is found on the e-learning website of FH-JOANNEUM
 - [exercise3](exercise3.md) getting to learn maven
 - [exercise4](exercise4.md) getting to learn how to test source code
 - [exercise5](exercise5.md) getting to learn about branches
-- [exercise6](exercise6.md)
+- [exercise6](exercise6.md) Learning how to document code using Javadoc comments, best practices for commenting code, and writing good commit messages
 
 ## author
 
